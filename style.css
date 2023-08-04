@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,500;1,600;1,700&display=swap');
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    max-width: 1440px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+}
+.content
+{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    background-color: #0F6292;
+    padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1
+{
+    color: #f0f0f0;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.in
+{
+    text-align: left;
+}
+input
+{
+    margin-bottom: 30px;
+    background-color: #0F6292;
+    outline: 0;
+    border-width: 0 0 4px;
+    border-color: #ebeef0;
+    color: azure;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+h2
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+a, a:visited
+{
+    font-style: normal;
+    color: #0f0f0f;
+    text-decoration: none;
+}
+a:-webkit-any-link
+{
+    font-style: normal;
+    color: #0f0f0f;
+    text-decoration: none;
+}
+.btn
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+
+    -webkit-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.structure
+{
+    display: flex;
+}
+.player
+{
+    padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 60%; 
+    border-radius: 20px;
+}
+.player1
+{
+    background-color: #16FF00;
+}
+.vs
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.big
+{
+    font-size: 80px;
+}
+.player2
+{
+    background-color: #FFED00;
+}
+.up
+{
+    margin-top: 20px;
+    font-size: 40px;
+}
+h3
+{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+audio
+{
+    display: none;
+}
