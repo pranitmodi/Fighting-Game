@@ -77,6 +77,8 @@ a:-webkit-any-link
 .structure
 {
     display: flex;
+    width: 1000px;
+    margin: auto;
 }
 .player
 {
@@ -119,4 +121,25 @@ h3
 audio
 {
     display: none;
+}
+
+.res
+{
+    margin-top: 40px; 
+    margin-bottom: 20px;  
+    color: crimson;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#reset
+{
+    padding: 10px 30px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-size: 20px;
+    font-weight: 500;
+
+    border-radius: 25px;
 }
